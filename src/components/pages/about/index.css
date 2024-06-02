@@ -1,0 +1,171 @@
+#about {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-image {
+    object-fit: cover;
+    height: 35vw;
+    width: 35rem;
+    margin-right: 2rem;
+
+}
+
+.aboveTitle {
+    color: grey;
+    padding-top: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.exp-details-container {
+    display: flex;
+    margin: 1.5rem;
+    text-align: left;
+}
+
+.icon {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.details-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: grey;
+}
+
+.text-container {
+    width: 80%;
+    text-align: left;
+}
+
+.about-para {
+    margin: 2.5rem;
+}
+
+.techs-container {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.tech-title {
+    text-align: left;
+    font-weight: bold;
+}
+
+.techs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: left;
+    margin: 1rem;
+}
+
+.skill-container {
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    align-items: c;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 1440px){
+    .about-image {
+        height: 65rem;
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .about-image {
+        height: 65rem;
+        width: 35rem;
+        margin: auto;
+    }
+
+    .exp-details-container {
+        display: block;
+        margin: 1.5rem;
+        text-align: left;
+        max-width: 80%;
+    }
+
+    .details-container {
+        justify-content: normal;
+    }
+
+    .techs-container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-image {
+        height: 30rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-containers {
+        display: block;
+    }
+    
+    .about-image {
+        height: 25rem;
+        width: 20rem;
+        margin: auto;
+    }
+
+    .techs { 
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .exp-details-container, .text-container {
+        display: inline-block;
+    }
+    
+    .about-image {
+        height: 25rem;
+        width: 20rem;
+        margin: auto;
+    }
+
+    .techs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
