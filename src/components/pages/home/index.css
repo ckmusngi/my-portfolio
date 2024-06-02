@@ -78,6 +78,7 @@
 
     .introPara {
         font-size: 1.5rem;
+        margin: 0;
     }
 }
 
@@ -91,38 +92,47 @@
     .bg {
         opacity: 75%;
     }
+    
 }
 
 @media screen and (max-width: 680px) {
     .bg {
         position: absolute;
-        width: 25rem;
-        height: 60vh;
-
-        /* width: 50rem; */
-        right: -14vw;
-        /* height: 52rem; */
-        top: 6vw;
+        width: 38rem;
+        height: 80vh;
+        right: 0vw;
+        top: -6vw;
         opacity: 65%;
+    }
+
+    .introPara {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .introText {
+        font-size: 2rem;
     }
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 430px) {
     .introContent {
         font-size: 1.6rem;
     }
     .bg {
         position: absolute;
         width: 25rem;
-        right: -10vw;
-        top: 5vw;
+        right: -2vw;
+        top: -3rem;
         height: 60vh;
     }
     .hello {
         font-size: 1.3rem;
     }
     .introPara {
-        font-size: 1rem;
+        margin: 0;
+        font-size: 1.3rem;
     }
 }
 
@@ -134,13 +144,36 @@
         font-size: 1rem;
     }
     .introPara {
-        font-size: 0.5rem;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .bg {
+        right: -10vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .bg {
+        position: absolute;
+        width: 20rem;
+        right: -5vw;
+        top: 0rem;
+        height: 50vh;
     }
 }
 
 @media screen and (max-width: 320px) {
     .bg {
-        right: -15vw;
-        top: -3vw;
+        right: -11vw;
+        top: 4vw;
+    }
+
+    .introPara {
+        font-size: 1rem;
+    }
+
+    .introText {
+        font-size: 1.5rem;
     }
 }
