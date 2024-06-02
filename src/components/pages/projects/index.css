@@ -114,7 +114,19 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 510px) {
+    .webBars {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projButtons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 430px) {
     .apiBars {
         display: block;
         width: fit-content;
