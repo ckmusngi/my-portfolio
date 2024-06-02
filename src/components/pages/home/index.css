@@ -124,7 +124,7 @@
         position: absolute;
         width: 25rem;
         right: -2vw;
-        top: -3rem;
+        top: -1rem;
         height: 60vh;
     }
     .hello {
@@ -156,9 +156,9 @@
 @media screen and (max-width: 375px) {
     .bg {
         position: absolute;
-        width: 20rem;
-        right: -5vw;
-        top: 0rem;
+        width: 25rem;
+        right: -8vw;
+        top: 1rem;
         height: 50vh;
     }
 }
