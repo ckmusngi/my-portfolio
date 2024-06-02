@@ -103,9 +103,12 @@
 @media screen and (max-width: 680px) {
     .bg {
         position: absolute;
-        width: 50rem;
+        width: 25rem;
+        height: 60vh;
+
+        /* width: 50rem; */
         right: -14vw;
-        height: 52rem;
+        /* height: 52rem; */
         top: 6vw;
         opacity: 65%;
     }
@@ -117,11 +120,10 @@
     }
     .bg {
         position: absolute;
-        width: 40rem;
-        right: -30vw;
-        height: 55%;
-        top: 17vw;
-        opacity: 80%;
+        width: 25rem;
+        right: -10vw;
+        top: 5vw;
+        height: 60vh;
     }
     .hello {
         font-size: 1.3rem;
@@ -131,15 +133,9 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
     .introContent {
         font-size: 5vw;
-    }
-    .bg {
-        width: 37rem;
-        right: -37vw;
-        height: 50%;
-        top: 28vw;
     }
     .hello {
         font-size: 1rem;
@@ -150,19 +146,8 @@
 }
 
 @media screen and (max-width: 320px) {
-    /* .introContent {
-        font-size: 5vw;
-    } */
     .bg {
-        top: 7rem;
-        right: -35vw;
-        height: 45%;
-        width: 34rem;
+        right: -15vw;
+        top: -3vw;
     }
-    /* .hello {
-        font-size: 1rem;
-    }
-    .introPara {
-        font-size: 0.5rem;
-    } */
 }
